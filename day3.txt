@@ -60,3 +60,141 @@ Some commonly used container tags are:
 <ol>…</ol>: This tag is used to create ordered lists.
 <ul>…</ul>: This tag is used to create unordered lists.
 <li>…</li>: This tag is used to add list items.
+
+
+
+
+Empty Tags
+The tags that do not contain any closing tags are known as empty tags. Empty tags contain only the opening tag but they perform some action in the webpage.
+
+Syntax:
+
+<tag_name>
+
+Some commonly used empty tags are:
+
+<br>: Inserts a line break in a webpage wherever needed.
+<hr>: Inserts a horizontal line wherever needed in the webpage.
+<img>: This tag is used to display the images on the webpage which were given in the src attribute of the tag.
+<input>: This is mainly used with forms to take the input from the user and we can also define the type of the input.
+<link>: When we store our CSS in an external file this can be used to link external files and documents to the webpage and it is mainly used to link CSS files.
+<meta>: Contains all metadata of the webpage. Metadata is the data about data and is described in the head tag.
+<source>: When an external media source is needed to be included in the webpage. source tag is used to insert any media source like audio, video etc… in our webpage.
+
+
+HTML Text Formatting:
+refer : practice3.html
+
+
+
+
+Link Tag
+What is a link?
+
+It is a connection from one web resource to another. A link has two ends, An anchor and direction. The link starts at the “source” anchor and points to the “destination” anchor, which may be any Web resource such as an image, a video clip, a sound bite, a program, an HTML document or an element within an HTML document. You will find many websites or social media platforms ( Like YouTube, Instagram ) which link an image to a URL or a text to a URL etc. 
+
+This basically means that by using the ‘a’ tag, you can link 1 element of the code to another element that may/may not be in your code. 
+
+HTML Link Syntax
+
+Links are specified in HTML using the “a” tag. 
+
+< a href="url"> Text link </a>
+
+Syntax Explanation: 
+
+href : The href attribute is used to specify the destination address of the link used. "href" stands for Hypertext reference. 
+Text link : The text link is the visible part of the link. It is what the viewer clicks on.  
+
+<!DOCTYPE html>
+<html>
+ <h3>Example Of Adding a link</h3>  
+   <body>
+       
+        <p>Click on the following link</p>
+​
+      <a href = "https://www.geeksforgeeks.org">GeeksforGeeks</a>
+   </body>
+     
+</html>
+
+Internal Links:
+An internal link is a type of hyperlink whose target or destination is a resource, such as an image or document, on the same website or domain. 
+
+https://media.geeksforgeeks.org/wp-content/uploads/20221209132053/16.png
+
+
+Changing Link Colours in HTML
+
+Different types of links appear in different formats such as: 
+An unvisited link appears underlined and blue in colour by default.
+A visited link appears underlined and purple in colour by default.
+An active link appears underlined and red in colour by default.
+The appearances of links can be changed by using CSS. 
+
+refer: practice4.html
+
+refer: practice5.html for Various options available in the Target Attribute
+
+
+Using Image as a Link in HTML:-
+
+An image can be used to create a link to a specified URL. When the viewer clicks on the link, it redirects them to another page. 
+
+The code is <a href=”url”>
+
+                          <img src=”file address (on device or on web)” alt=”_” style=”width:__ ; height:__ ; border:__”>
+
+                     </a> 
+
+Note: img src stands for image source ( i.e URL or file address ) 
+
+refer:practice6.html
+
+Creating a Bookmark Link for a Webpage:-
+A bookmark is a link that can be used to jump to specified portion of a webpage.Bookmarks are very useful if a webpage is quite long.
+Steps to create a bookmark are: 
+1. Using the id attribute, create a bookmark. 
+
+<h2 id="T17"> Topic 17</h2>
+
+2. Add the specified portion of the webpage to the bookmark. 
+
+<p><a href="#T17"> Jump to Topic 17</a></p>
+
+refer:practice7.html
+
+Creating a download link in HTML 
+A text link of a pdf, doc or zip file can be created to make it downloadable.
+
+refer:practice7.html ending
+
+
+Image Tag:
+HTML <img> tag is used to add image inside webpage/website. Nowadays website does not directly add images to a web page, as the images are linked to web pages by using the <img> tag which holds space for the image.
+
+Syntax: 
+
+<img src="" alt="" width="" height="">
+Attributes: The <img> tag has following attributes.
+
+src: It is used to specify the path to the image.
+alt: It is used to specify an alternate text for the image. It is useful as it informs the user about what the image means and also due to any network issue if the image cannot be displayed then this alternate text will be displayed.
+crossorigin: It is used to import images from third-party sites that allow cross-origin access to be used with canvas.
+height: It is used to specify the height of the image.
+width: It is used to specify the width of the image.
+ismap: It is used to specify an image as a server-side image map.
+loading: It is used to specify whether a browser should defer loading of images until some conditions are met or load an image immediately.
+longdesc: It is used to specify a URL to a detailed description of an image.
+referrerpolicy: It is used to specify which referrer information to use when fetching an image i.e. no-referrer, no-referrer-when-downgrade, origin, origin-when-cross-origin, unsafe-url.
+sizes: It is used to specify image sizes for different page layouts.
+srcset: It is used to specify a list of image files to use in different situations.
+usemap: It is used to specify an image as a client-side image map.
+ 
+refer:practice8.html
+
+
+
+
+
+
