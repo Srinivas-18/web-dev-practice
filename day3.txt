@@ -1,0 +1,62 @@
+Container and Empty Tags
+HTML uses predefined tags that tell the browser how to display the content. Tags are nothing but some instructions that are enclosed in angle braces(i.e., <>). Tags are used in many places of the webpage but many users are often confused about some tags whether it is a container or an empty tag. They get this confusion because they don’t know for what tag there should be an ending tag along with the opening tag or not. 
+
+There are two types of tags in HTML:
+
+Empty
+Container
+
+Now, let us see the definitions and examples of the most commonly used HTML container and empty tags.
+
+Container tags:
+Container tags are generally divided into three parts, i.e., opening tag, content(which will display on the browser), and closing tag. In the content part, they can also contain some other tags. These opening and closing tags are used in pairs which are start tag and end tag, which is often called ON and OFF tags. If you forget to close the container tag, the browser applies the effect of the opening tag until the end of the page. So be careful while working with container tags. The majority of tags present in HTML are container tags. 
+ 
+
+<tag_name> …</tag_name> 
+
+Some commonly used container tags are:
+
+1. Essential Tags: Following tags are used to create the structure of the webpage:
+
+<html>….</html>: This marks the beginning and ending of the webpage also it tells that the document is an HTML document. This contains all other tags in between these tags which are considered for making a webpage.
+<head>…</head>: This tag is used to define the head part of the document which contains the information related to the webpage.
+<title>…</title>: This tag stores the description of the web page, whatever given in these tags appears on the tab name while opened by the browser. It is described in the head tag.
+<body>….</body>: This tag is used to display all the information or data, i.e, text, images, hyperlinks videos, etc., on the webpage to the user.
+2. Headings: Following tags are used for headings:
+
+<h1>….</h1> to <h6>…</h6>: It is used for including headings of different sizes ranging from 1 to 6.
+
+3. Text formatters: Following tags are used for text formatting:
+
+<p>….</p>: When paragraphs are needed to be included, this tag is used
+<b>….</b>: Makes the contained text to bold.
+<i>…</i>: Makes the contained text to italic.
+4. HyperLinks: Following tag is used to define a hyperlink in the webpage:
+
+<a href=”link.com”>…</a>: When we link some other webpages we add the hyper links to other webpages using this <a …>…</a>tag.
+
+5. Button tag: Following  tag is used to create a click button:
+
+<button>…</button>: This is used in many ways but mainly used to manipulate dom by adding events and many more.
+
+6. Division tag: Following tag is used to create a division:
+
+<div>….</div>: This defines a section in a document. The webpage can be divided to different sections using the <div>….</div> tag.
+
+7. Iframe tag: Following tag is used for inline framing:
+
+<iframe src=”link.com> </iframe>: When some other document is to be embedded like some video or image into HTML we use this tag.
+
+8. Navigation tag: Following tag is used to set a navigation link:
+
+<nav>…</nav>: Defines a navigation bar that contains a set of menu or a menu of hyperlinks.
+
+9. Script tag: Following  tag is used to add JavaScript code to the webpage:
+
+<script>…</script> : This contains the javascript code that adds interactivity to the webpage.
+
+10. Lists: Following tags are used to write data in the form of ordered and unordered lists:
+
+<ol>…</ol>: This tag is used to create ordered lists.
+<ul>…</ul>: This tag is used to create unordered lists.
+<li>…</li>: This tag is used to add list items.
