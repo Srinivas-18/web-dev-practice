@@ -1,11 +1,4 @@
-**Option 1: The Kohli Approach**
+** 'web-dev-practice,' is your pitch. Every line of code is a delivery. Some will be dots, some will go for runs, but every single one builds your innings. You're here to learn, to grind, to become the best version of the web developer you can be. Embrace the challenge, stay hungry, and never back down. Like Virat says, 'If you don't believe you can do it, you have no chance at all.**
 
-'web-dev-practice,' is your pitch. Every line of code is a delivery. Some will be dots, some will go for runs, but every single one builds your innings. You're here to learn, to grind, to become the best version of the web developer you can be. Embrace the challenge, stay hungry, and never back down. Like Virat says, 'If you don't believe you can do it, you have no chance at all.
+**"Web-dev-practice: Oka sari start chesthe, aapeyadam ante ardham ledu! (Once you start, there's no stopping!). This isn't just code; it's a journey. Failure is temporary, but giving up is permanent. So, get to work! Remember, success isn't overnight; it's built 'bit by bit' (pun intended!). Let's do coding rao coding!" **
 
-**Option 2: Telugu Meme Style**
-
-"Web-dev-practice: Oka sari start chesthe, aapeyadam ante ardham ledu! (Once you start, there's no stopping!). This isn't just code; it's a journey. Failure is temporary, but giving up is permanent. So, get to work! Remember, success isn't overnight; it's built 'bit by bit' (pun intended!). Let's do coding rao coding!"
-
-**Option 3: Hybrid Vibe**
-
-"Welcome to 'web-dev-practice'! Ee project lo, nuvvu master-u. Just like Kohli owns the crease, you own your code. Even if things get tough, remember why you started. As they say in Telugu, 'Try cheyadam lo tappu ledu' (There's no harm in trying). So, keep coding, keep learning, and keep pushing. World cup lekapoina, web development cup neeke!" (Even if we don't have the World Cup, the web development cup is yours!)
