@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables in html</title>
+    </head>
+    <style>
+        th,td,table{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+    <body>
+        <h1>Table Example</h1>
+        <table>
+            <caption>Table Caption</caption>
+            <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+            </tr>
+            <tr>
+                <td>gajala</td>
+                <td>20</td>
+                <td>W D.C</td>
+            </tr>
+        </table>
+
+        <div>
+            <h1>Table with colspon</h1>
+            <table style="width: 100px;">
+                <tr>
+                    <th colspan="2">Name</th>
+                    <th>Age</th>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <td>gajala</td>
+                    <td>gajala2</td>
+                    <td>20</td>
+                    <td>W D.C</td>
+            </table>
+        </div>
+                    <!-- Table with rowspon -->
+        <div>
+            <h1>Table with rowspon</h1>
+            <table style="width: 100px;">
+                <tr>
+                    <th>Name</th>
+                    <td>gajala</td>
+                </tr>
+                <tr>
+                <th rowspan="2">Number</th>
+                <td>9999</td>
+            </tr>
+            <tr>
+                <td>6969</td>
+            </tr>
+            
+            </table>
+        </div>
+    </body>
+</html>

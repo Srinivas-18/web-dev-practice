@@ -1,0 +1,83 @@
+Day5:
+
+Lists in HTML | Fork HTML
+Lists are used to store data or information in web pages in ordered or unordered form. HTML supports several types of list elements that can be included in the <BODY>tag of the document. These elements may also be nested, i.e, the onset of elements can be embedded within another. There are three types of list are available in HTML:
+
+Unordered List
+Ordered List
+Description list
+
+Now before moving to the list first of all we understands what is a list item tag.
+
+List Item tag
+
+List item tag is used to define each item of a list. Once we define list items with the <li> tag, the list appears in Web browsers in the bulleted form (by default). It is used inside both ordered and unordered list.
+
+Syntax:
+
+<li> content </li>
+
+Attribute of item tag:
+
+value: The value attribute of the<li> tag is used to specify the value of the first item. The value must be a number and this can be used  in case of ordered list only. The subsequent list items will increment the value form the number.
+
+Syntax:
+
+<li  value = number>
+
+
+
+Ordered Lists:
+
+An ordered list defines a list of items in which the order of the items are matters. An ordered list is also called a number list. The ordering is given by a numbering scheme, using Arabic numbers, letters, roman numerals. Or in other words, ordered list  tag is used to create ordered list.
+
+Syntax:
+
+<ol> content </ol>
+
+Attributes of ordered list:
+
+reversed: This attribute is used to specifies that the ordered of the list should be reversed.Syntax:
+<ol reversed>
+
+start: This attribute is used to specifies the start value of the list.Syntax:
+<ol start = "number">
+
+type: This attribute is used to specifies the type of list item maker. The value of this attribute is decimal(Default)/lower-roman/upper roman/lower-alpha/upper alphaSyntax:
+<ol type = "a">
+
+refer practice16.html
+
+
+Unordered Lists | Fork HTML
+
+Unordered Lists:-
+An unordered list defines a list of items in which the order of the items does not. Or in other words, unordered list tag is used to create a unordered list. It is also known as bulleted list. In unordered list each element in the list is defined using <li> tag. 
+
+Syntax:
+
+<ul> content </ul> 
+
+Attributes of unordered list:
+
+List-style-type: This attribute is used to specifies the bullet style that will be used as the list item marker. The value of this attribute is None/disc(default)/circle/square.
+
+Syntax:
+
+<ul style="list-style-type:square|disc|none;">
+
+refer practice17.html
+
+Description List:
+Description list is a list in which each term contain its description. This tag contain <dt> and <dd> tag.
+
+<dt></dt>: This tag is used to define the name or term
+<dd><dd>: this tag is used to describe the term.
+
+Syntax:
+
+<dl> content </dl>
+
+refer practice17.html
+
+refer practice18.html for Tables in html and colspan and rowspan attribute in tables
