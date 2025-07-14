@@ -16,7 +16,6 @@ Footer: The footer section contains the contact information and other query rela
 refer: practice9.html
 
 
-
 Semantics:
 
 HTML tags are classified in two types:
@@ -37,3 +36,164 @@ nav
 section
 
 refer:practice10.html and 11, 12 too
+
+
+
+Block, Inline and Inline-Block Elements:
+In this, we will know the HTML Block element & Inline element, along with understanding the implementation through the example. Every HTML documents that render the web content, will depend on the element type i.e, block or inline which are default display values. We will understand both these concepts through the examples.
+
+Example: This example illustrates the use of the block-level element & inline element.
+
+<!DOCTYPE html>
+<html>
+<body>
+    <div>GeeksforGeeks</div>
+    Checkout the GeeksforGeeks
+    <a href="https://www.geeksforgeeks.org/"
+       alt="GeeksforGeeks">
+      official</a> website for the articles on various courses.
+</body>
+</html>
+
+In the above example, we have used the <div> tag that always starts in a new line & captures the full width available. We have used the inline element anchor tag <a>that is used to provide a link to a text. The inline element doesn’t start in a new line & captures only the space around the element.
+
+Block Level Elements: A block-level element always starts on a new line and stretches out to the left and right as far as it can i.e, it occupies the whole horizontal space of its parent element & the height is equal to the content’s height. 
+
+Supported tags:
+
+HTML <address> Tag
+HTML <blockquote> Tag
+HTML <dd> Tag
+HTML <Div> Tag
+HTML <dl> Tag 
+HTML <dt> Tag
+HTML <canvas> Tag
+HTML <form> Tag
+HTML <Heading> Tag
+HTML <hr> Tag
+HTML <li> Tag
+HTML <main> Tag
+HTML <nav> Tag
+HTML <noscript> Tag
+HTML <ol> Tag
+HTML <pre> Tag
+HTML <section> Tag
+HTML <tfoot> Tag
+HTML <ul> Tag
+HTML Tables
+HTML Paragraphs
+HTML5 <Video> Tag
+HTML5 <aside> Tag
+HTML5 <article> Tag
+HTML5 <figcaption> Tag
+HTML5 <fieldset> Tag
+HTML5 <figure> Tag
+HTML5 <footer> Tag
+HTML 5 <header> Tag
+
+Inline Elements: An inline element is the opposite of the block-level element. It does not start on a new line and takes up only the necessary width ie., it only occupies the space bounded by the tags defining the HTML element, instead of breaking the flow of the content. 
+
+Supported tags:
+
+HTML <br> Tag
+HTML <button> Tag
+HTML <time> Tag
+HTML <tt> Tag
+HTML <var> Tag
+HTML <a> Tag
+HTML <abbr> Tag
+HTML <acronym> Tag
+HTML <b> Tag
+HTML <cite> Tag
+HTML <code> Tag
+HTML <dfn> Tag
+HTML <em> Tag
+HTML <i> Tag
+HTML <output> Tag
+HTML <q> Tag 
+HTML <samp> Tag
+HTML <script> Tag
+HTML <select> Tag
+HTML <small> Tag
+HTML <span> Tag
+HTML <strong> Tag
+HTML <sub> Tag
+HTML <sup> Tag
+HTML <textarea> tag
+HTML <bdo> Tag
+HTML <big> Tag
+HTML <img> Tag
+HTML <input> Tag
+HTML <kbd> Tag
+HTML <label> Tag
+HTML <map> Tag
+HTML <Object> tag
+
+refer practice13.html for <span> usage
+
+how to create a table:
+
+			<table border="1">
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Grade</th>
+                    </tr>
+                    <tr>
+                        <td>Pranay</td>
+                        <td>21</td>
+                        <td>8.2</td>
+                    </tr>
+                    <tr>
+                        <td>Srinivas</td>
+                        <td>21</td>
+                        <td>8.17</td>
+                    </tr>
+                </table>
+
+refer practice13.html for full structure
+
+Inline vs Block elements:
+The inline and block elements of HTML are one of the important areas where web developers often get confused because they were unable to know which are inline and block elements which may cause clumsiness in a webpage in case he assumes some element to be a block but it is an inline element which causes next element comes next to it.
+
+So let us see the differences between the inline and block elements in HTML and the different frequently used inline and block HTML elements. 
+
+Block elements: They consume the entire width available irrespective of their sufficiency. They always start in a new line and have top and bottom margins. It does not contain any other elements next to it.
+
+Examples of Block elements:
+
+<h1>-<h6> : This element is used for including headings of different sizes ranging from 1 to 6.
+<div>: This is a container tag and is used to make separate divisions of content on the web page.
+<hr>: This is an empty tag and is used for separating content by horizontal lines.
+<li>: This tag is used for including list items of an ordered or unordered list.
+<ul>: This tag is used to make an unordered list.
+<ol>: This tag is used to make an ordered list.
+<p>: This tag is used to include paragraphs of content in the webpage.
+<table>: This tag is used for including the tables in the webpage when there is a need for tabular data.
+HTML 5 Semantic block elements:
+
+<header>: This tag is used for including all the main things of the webpage like navbar, logos, and heading of the webpage.
+<nav>: This tag helps to navigate through different sections by including different blocks of hyperlinks in the webpage.
+<footer>:  This contains all information about the authorization, contact, and copyright details of the webpage.
+<main>: The main content of the webpage resides in this tag.
+<section> : This is used separate different sections in the webpage.
+<article>: This tag is used to include different independent articles on the webpage.
+<aside>: This tag is used to mention details of the main content aside.
+
+	refer practice14.html for 3 different block elements with different background colour and a border are used to show how the block elements occupy the whole width and the margin they leave. Three-block elements <h1>,<p>,<div> are used in the above output.
+
+
+
+Inline elements: Inline elements occupy only enough width that is sufficient to it and allows other elements next to it which are inline. Inline elements don’t start from a new line and don’t have top and bottom margins as block elements have.
+
+Examples of Inline elements:
+
+<a>: This tag is used for including hyperlinks in the webpage.
+<br>: This tag is used for mentioning line breaks in the webpage wherever needed.
+<script> : This tag is used for including external and internal JavaScript codes.
+<input>: This tag is used for taking input from the users and is mainly used in forms.
+<img>: This tag is used for including different images in the webpage to add beauty to the webpage.
+<span>:  This is an inline container that takes necessary space only.
+<b>:  This tag is used in places where bold text is needed.
+<label>: The tag in HTML is used to provide a usability improvement for mouse users i.e, if a user clicks on the text within the <label> element, it toggles the control.
+Example: refer practice15.html
