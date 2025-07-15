@@ -1,3 +1,6 @@
+Day3:
+
+
 Container and Empty Tags
 HTML uses predefined tags that tell the browser how to display the content. Tags are nothing but some instructions that are enclosed in angle braces(i.e., <>). Tags are used in many places of the webpage but many users are often confused about some tags whether it is a container or an empty tag. They get this confusion because they don’t know for what tag there should be an ending tag along with the opening tag or not. 
 
